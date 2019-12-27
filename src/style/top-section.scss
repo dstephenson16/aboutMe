@@ -1,0 +1,45 @@
+.top-wrapper {
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 800px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+    h1 {
+        display: block;
+        color: white;
+        margin-top: 0px;
+        text-align: center;
+        font-family: 'Major Mono Display', monospace;
+        font-size: 4em;
+        margin-block-start: 0.20em;
+        margin-block-end: 0.20em;
+    }
+}
+
+.headline h5 {
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: .15em;
+    color: white;
+    overflow: hidden;
+    border-right: .15em solid #BAD9B5;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+    text-align: center;
+}
+
+@keyframes  typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #BAD9B5 }
+}
