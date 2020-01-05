@@ -1,9 +1,6 @@
-.skill-text-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 140px;
-    padding-bottom: 60px;
+.other-skill-text {
+    padding-left: 555px;
+
     h2 {
         text-align: center;
         font-family: 'Montserrat', sans-serif;
@@ -19,13 +16,13 @@
     }
 }
 
-.skills-wrapper {
+.interest {
     display: flex;
     align-items: center;
     width: 80%;
 }
 
-.skill {
+.other-skill {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,22 +32,16 @@
     float: left;
     width: 30%;
     padding: 10px;
+    padding-top: 60px;
     height: 300px;
-    margin-left: 22px;
+    margin-left: 120px;
 
-    .skill-img {
+    .other-skill-img {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        height: 30vh;
-        width: 15vw;
-    }
-
-    .skill-img-css {
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 30vh;
-        width: 30vw;
+        height: 10vh;
+        width: 5vw;
     }
 }
+
