@@ -1,0 +1,64 @@
+.recent-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 580px;
+
+    .label {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 70px;
+
+        h2 {
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            padding-bottom: 7px;
+            width: 300px;
+            border-bottom: 1px solid #616161;
+            font-size: 1.6em;
+        }
+    }
+
+    .two-column {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80vw;
+        height: 200px;
+        padding-bottom: 30px;
+
+        .weddingLink {
+            text-decoration: none;
+        }
+
+        .image {
+            height: 300px;
+            width:35vw;
+            border: 3px solid #2A2D34;
+            border-radius: 3px;
+            opacity: 1;
+        }
+
+        .text {
+            text-align: center;
+            color: #0A0908;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+            letter-spacing: 2px;
+            font-size: 1.2em;
+        }
+
+        .undertext {
+            text-align: center;
+            color: #0A0908;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+            letter-spacing: 2px;
+            font-size: .7em;
+            margin-top: -10px;
+            margin-bottom: 20px;
+        }
+    }
+}

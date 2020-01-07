@@ -5,6 +5,7 @@ import AboutMe from "./about-me";
 import Me from "./me";
 import Skills from "./skills";
 import OtherSkills from "./other-skills";
+import RecentWorks from "./recent-works";
 
 export default class App extends Component {
   render() {
@@ -15,6 +16,7 @@ export default class App extends Component {
         <Me />
         <Skills />
         <OtherSkills />
+        <RecentWorks />
       </div>
     );
   }
